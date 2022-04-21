@@ -18,7 +18,7 @@ let playerName = document.getElementById("player-name")
 let playerEl = document.querySelector('#player-el')
     // playerName.addEventListener('input', function() {
     //     playerEl.textContent = this.value + ": $" + player.chips
-    // });
+    // })
 let saveName = document.querySelector("#save-name")
 saveName.addEventListener('click', function() {
     player.name = playerName.value;
